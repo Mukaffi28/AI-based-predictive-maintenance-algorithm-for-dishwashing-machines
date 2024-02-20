@@ -18,4 +18,13 @@ The dataset consists of temperature and vibration sensor readings categorized in
 #### Temperature Sensor
 - Apply median imputation to handle missing values in temperature sensor readings.
 
+#### Vibration Sensor
+- Apply forward fill to handle missing values in vibration sensor readings. Fill missing values with the values from the previous row.
+
+### Health Conditions Labeling
+Label health conditions based on specific criteria:
+*   **Good:** if (Temperature is within the range of 15 to 70 degrees and Vibration falls between 300 and 7500)
+*   **Bad:** if (Temperature is below 10 or above 70) or (Vibration is below 150 or above 7900)
+*   **Moderate:** otherwise categorized as Moderate.
+
 
