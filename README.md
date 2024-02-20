@@ -26,5 +26,22 @@ Label health conditions based on specific criteria:
 *   **Good:** if (Temperature is within the range of 15 to 70 degrees and Vibration falls between 300 and 7500)
 *   **Bad:** if (Temperature is below 10 or above 70) or (Vibration is below 150 or above 7900)
 *   **Moderate:** otherwise categorized as Moderate.
+## Model Utilized
+- Random Forest
+- XGBoost 
+- LightGBM
+- CatBoost
 
+## Model Performance
+
+The following table compares the performance metrics of four different models:
+
+| Model        | Accuracy | Precision | Recall | F1 Score | Log Loss |
+|--------------|----------|-----------|--------|----------|----------|
+| Random Forest| 0.61     | 0.73      | 0.63   | 0.57     | 14.17    |
+| XGBoost      | 0.99     | 0.99      | 0.99   | 0.99     | 0.38     |
+| LightGBM     | 0.99     | 0.99      | 0.99   | 0.99     | 0.30     |
+| CatBoos      | 0.99     | 0.99      | 0.99   | 0.99     | 1.09     |
+
+  
 
