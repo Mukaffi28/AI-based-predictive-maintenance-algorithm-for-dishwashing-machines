@@ -41,7 +41,7 @@ The following table compares the performance metrics of four different models:
 | Random Forest| 0.61     | 0.73      | 0.63   | 0.57     | 14.17    |
 | XGBoost      | 0.99     | 0.99      | 0.99   | 0.99     | 0.38     |
 | LightGBM     | 0.99     | 0.99      | 0.99   | 0.99     | 0.30     |
-| CatBoos      | 0.99     | 0.99      | 0.99   | 0.99     | 1.09     |
+| CatBoost     | 0.99     | 0.99      | 0.99   | 0.99     | 1.09     |
 
   
 
